@@ -1,4 +1,4 @@
-# max-and-unlock
+# Max & Unlock
 Utility for adjusting amounts, levels and unlocks in The Walking Dead: Saints &amp; Sinners save files.
 
 This utility was originally used to modify PCVR save files, but has been verified to function with save files exported from The Walking Dead: Saints & Sinners Chapter 1 intended for use with the import function of The Walking Dead: Saints & Sinners Chapter 2: Retribution.
