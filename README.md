@@ -16,3 +16,19 @@ While this utility will attempt to create a backup, please create your own backu
 **Usage:**
 
   `max-and-unlock.exe -a 100 -r 100 -t 9 -u 2 -s TWDCH1_Data.sav`
+
+**Options:**
+
+  `-s, --save         Required. Path to .SAV file`
+
+  `-a, --ammo         (Default: -1) New ammunition count 0-999,999`
+
+  `-r, --resources    (Default: -1) New resource count 0-999,999`
+
+  `-t, --tables       (Default: -1) New table level 0-9`
+
+  `-u, --unlocks      (Default: -1) 0=none, 1=CH1 unlocks, 2=CH1 & CH2 unlocks`
+
+  `--help             Display this help screen.`
+
+  `--version          Display version information.`
