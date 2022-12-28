@@ -1,0 +1,6 @@
+C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Release\max-and-unlock.exe.config
+C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Release\max-and-unlock.exe
+C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Release\max-and-unlock.pdb
+C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Release\max-and-unlock.csprojAssemblyReference.cache
+C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Release\max-and-unlock.exe
+C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Release\max-and-unlock.pdb
