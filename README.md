@@ -7,10 +7,12 @@ This utility will not add ammunition, materials or crafting tables that are not 
 
 In order to include and adjust Chapter 2 ammo, materials and table levels you will need a save that already includes these. One can be found described and linked in the video linked below.
 
-Everything Unlocked Retribution Save for Quest - https://youtu.be/PNYsY-7tGGc
+**Everything Unlocked Retribution Save for Quest**
+
+https://youtu.be/PNYsY-7tGGc
 
 While this utility will attempt to create a backup, please create your own backups. This utility is provided for use as-is and at own risk.
 
-Usage:
- 
-  max-and-unlock.exe -a 100 -r 100 -t 9 -u 2 -s TWDCH1_Data.sav
+**Usage:**
+
+  `max-and-unlock.exe -a 100 -r 100 -t 9 -u 2 -s TWDCH1_Data.sav`
