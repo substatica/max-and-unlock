@@ -1,5 +1,7 @@
 ﻿using CommandLine;
+using CommandLine.Text;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -9,7 +11,7 @@ namespace max_and_unlock
 	{ 
 		public class Options
 		{
-			[Option('s', "save", Required = true, HelpText = "Path to .SAV file to update")]
+			[Option('s', "save", Required = true, HelpText = "Path to .SAV file")]
 			public string SaveFile { get; set; }
 
 			[Option('a', "ammo", Default =-1, Required = false, HelpText = "New ammunition count 0-999,999")]
@@ -290,11 +292,33 @@ namespace max_and_unlock
 			0x65, 0x5F, 0x43
 		};
 
+		static void DisplayHelp<T>(ParserResult<T> result, IEnumerable<Error> errs)
+		{
+			var helpText = HelpText.AutoBuild(result, h =>
+			{
+				h.AdditionalNewLineAfterOption = false;
+				h.Heading = "  substatica";
+				h.Copyright = "  youtube.com/substatica";
+				h.AdditionalNewLineAfterOption = true;
+				return HelpText.DefaultParsingErrorsHandler(result, h);
+			}, e => e);
+			Console.WriteLine(helpText);
+		}
+
 		static void Main(string[] args)
 		{
+			Console.WriteLine("  ----------------------------------------------------------");
+			Console.WriteLine("  Max & Unlock for The Walking Dead: Saints & Sinners Series");
+			Console.WriteLine("  ----------------------------------------------------------");
+			Console.WriteLine();
+
 			string filename = null;
 
-			Parser.Default.ParseArguments<Options>(args)
+			var parser = new CommandLine.Parser(with => with.HelpWriter = null);
+			var parserResult = parser.ParseArguments<Options>(args);
+
+			parserResult
+				.WithNotParsed(errs => DisplayHelp(parserResult, errs))
 				.WithParsed<Options>(o =>
 				{
 					filename = o.SaveFile;
