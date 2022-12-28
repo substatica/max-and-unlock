@@ -1,9 +1,0 @@
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Debug\max-and-unlock.exe.config
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Debug\max-and-unlock.exe
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Debug\max-and-unlock.pdb
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Debug\max-and-unlock.exe
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Debug\max-and-unlock.pdb
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Debug\max-and-unlock.csprojAssemblyReference.cache
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Debug\CommandLine.dll
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\bin\Debug\CommandLine.xml
-C:\Users\bro\source\repos\max-and-unlock\max-and-unlock\obj\Debug\max-and-unlock.csproj.CopyComplete
